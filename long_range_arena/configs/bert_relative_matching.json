@@ -1,0 +1,14 @@
+{
+    "model_type": "bert-prenorm",
+    "position_embedding_type": "relative_key_query_absolute",
+    "hidden_size": 128,
+    "num_hidden_layers": 4,
+    "num_attention_heads": 4,
+    "intermediate_size": 512,
+    "hidden_act": "gelu",
+    "hidden_dropout_prob": 0.1,
+    "attention_probs_dropout_prob": 0.1,
+    "initializer_range": 0.02,
+    "layer_norm_eps": 1e-12,
+    "type_vocab_size": 1
+}
